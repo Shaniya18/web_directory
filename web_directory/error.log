@@ -1,0 +1,226 @@
+[14-Oct-2025 15:32:23 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:38:13 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:38:15 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:40:16 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:44:18 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:44:20 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:44:21 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:44:22 Pacific/Fiji] Access denied for user 'your_database_username'@'localhost' (using password: YES)
+[14-Oct-2025 15:45:27 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 15:45:28 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 15:45:29 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 15:57:37 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 15:57:38 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 16:24:27 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[14-Oct-2025 16:24:30 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[14-Oct-2025 16:24:31 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[14-Oct-2025 16:24:31 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[14-Oct-2025 17:58:49 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 17:58:50 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:49:56 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:49:57 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:49:58 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:50:00 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:50:00 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:50:01 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:50:02 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:50:03 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:50:09 Pacific/Fiji] Access denied for user 'fijidb_admin'@'localhost' (using password: YES)
+[14-Oct-2025 18:57:58 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:07 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:09 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:12 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:13 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:14 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:16 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 18:58:17 Pacific/Fiji] Database Error: Table 'web_directory.listings' doesn't exist in engine
+[14-Oct-2025 14:31:20 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 697 in C:\xampp\htdocs\web_directory\index.php on line 1524
+[14-Oct-2025 14:31:23 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 697 in C:\xampp\htdocs\web_directory\index.php on line 1524
+[14-Oct-2025 15:39:59 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 15:40:00 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 15:40:03 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 15:40:04 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 15:40:58 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:40:59 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:40:59 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:40:59 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:41:00 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:41:00 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:41:01 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:41:01 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:41:01 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:41:02 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:33 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:34 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:34 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:34 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:34 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:34 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:34 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:35 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:36 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:44:36 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 15:47:23 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:47:24 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:47:24 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:47:24 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:47:25 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:47:25 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:09 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:10 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:10 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:10 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:11 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:11 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[14-Oct-2025 15:49:11 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 768
+[15-Oct-2025 02:39:16 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:18 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:32 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:33 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:47 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:48 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:48 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:49 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:50 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:39:50 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:40:16 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:40:16 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:41:05 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:41:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:41:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:41:09 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:41:29 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:41:30 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:44:47 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:44:48 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:44:48 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:03 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:04 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:04 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:04 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:05 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 02:45:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:26 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:27 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:28 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:28 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:28 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:28 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:28 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:29 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:29 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:29 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:30 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:30 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:00:30 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:05:11 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:05:12 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:05:13 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:09:11 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:09:12 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:03 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:04 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:04 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:04 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:05 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:06 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:35 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:36 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:10:36 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:11:11 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:11:12 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:11:12 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[14-Oct-2025 17:11:37 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:11:38 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:11:40 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:03 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 17:12:03 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 17:12:03 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 17:12:04 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 766
+[14-Oct-2025 17:12:28 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:28 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:29 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:29 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:57 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:58 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:58 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:58 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:12:59 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:00 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:00 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:01 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:39 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:40 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:40 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:40 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:41 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:41 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:42 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:44 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:13:45 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:14:09 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:14:10 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[14-Oct-2025 17:14:10 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\web_directory\index.php on line 773
+[15-Oct-2025 03:15:46 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:15:47 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:15:47 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:15:48 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:17 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:18 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:18 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:19 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:19 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:19 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:20 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:20 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:20 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:20 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:21 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:34:21 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:02 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:05 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:07 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:08 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:09 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:10 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:11 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:12 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:14 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:49:15 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:51:38 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:51:40 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:51:42 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 03:51:46 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:21 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:23 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:25 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:27 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:28 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:29 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:30 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:31 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:33 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:00:35 Pacific/Fiji] Access denied for user 'admin'@'localhost' (using password: YES)
+[15-Oct-2025 04:12:50 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[15-Oct-2025 04:12:52 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[15-Oct-2025 04:12:53 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[15-Oct-2025 04:12:55 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[15-Oct-2025 04:12:56 Pacific/Fiji] Access denied for user 'root'@'localhost' (using password: YES)
+[15-Oct-2025 04:20:57 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:04 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:05 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:07 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:08 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:10 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:14 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
+[15-Oct-2025 04:21:17 Pacific/Fiji] Database Error: Unknown column 'c.category_name' in 'field list'
