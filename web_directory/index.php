@@ -959,18 +959,27 @@ function displayStatistics($conn) {
 }
 
 function displayHomepage($conn) {
-    $stmt = $conn->prepare("SELECT * FROM categories WHERE parent_id IS NULL ORDER BY name");
-    $stmt->execute();
-    $result = $stmt->get_result();
-    
     echo '<h1>Browse by Category</h1>';
+    
+    // Get ALL main categories (parent_id IS NULL or 0)
+    $stmt = $conn->prepare("SELECT * FROM categories WHERE parent_id IS NULL OR parent_id = 0 ORDER BY name");
+    $stmt->execute();
+    $main_categories = $stmt->get_result();
+    
+    if ($main_categories->num_rows === 0) {
+        echo '<div class="message message-error">No categories found in database.</div>';
+        return;
+    }
+    
     echo '<div class="category-grid">';
     
+    // Collect all main categories
     $categories = [];
-    while ($row = $result->fetch_assoc()) {
+    while ($row = $main_categories->fetch_assoc()) {
         $categories[] = $row;
     }
     
+    // Split into two columns
     $half = ceil(count($categories) / 2);
     
     for ($col = 0; $col < 2; $col++) {
@@ -982,23 +991,51 @@ function displayHomepage($conn) {
             $cat = $categories[$i];
             $icon = !empty($cat['icon']) ? $cat['icon'] . ' ' : '';
             
-            echo '<div class="category-section">';
-            echo '<h2>' . $icon . '<a href="?page=category&id=' . $cat['id'] . '">' . sanitizeOutput($cat['name']) . '</a></h2>';
+            // Get total listings count for this main category and all its subcategories
+            $stmt_total = $conn->prepare("
+                SELECT COUNT(DISTINCT l.id) as total 
+                FROM listings l 
+                WHERE l.approved = 1 
+                AND (l.category_id = ? OR l.category_id IN (SELECT id FROM categories WHERE parent_id = ?))
+            ");
+            $stmt_total->bind_param("ii", $cat['id'], $cat['id']);
+            $stmt_total->execute();
+            $total_count = $stmt_total->get_result()->fetch_assoc()['total'];
             
-            $stmt_sub = $conn->prepare("SELECT * FROM categories WHERE parent_id = ? ORDER BY name LIMIT 5");
+            echo '<div class="category-section">';
+            echo '<h2>' . $icon . '<a href="?page=category&id=' . $cat['id'] . '">' . sanitizeOutput($cat['name']) . ' (' . $total_count . ')</a></h2>';
+            
+            // Get ALL subcategories for this parent category
+            $stmt_sub = $conn->prepare("SELECT id, name FROM categories WHERE parent_id = ? ORDER BY name");
             $stmt_sub->bind_param("i", $cat['id']);
             $stmt_sub->execute();
-            $subresult = $stmt_sub->get_result();
+            $subcategories = $stmt_sub->get_result();
             
-            if ($subresult->num_rows > 0) {
+            if ($subcategories->num_rows > 0) {
                 echo '<div class="subcategories">';
                 $subs = [];
-                while ($subrow = $subresult->fetch_assoc()) {
-                    $subs[] = '<a href="?page=category&id=' . $subrow['id'] . '">' . sanitizeOutput($subrow['name']) . '</a>';
+                
+                // Get ALL subcategories with listing counts
+                while ($subcat = $subcategories->fetch_assoc()) {
+                    // Get listing count for each subcategory
+                    $stmt_count = $conn->prepare("SELECT COUNT(*) as cnt FROM listings WHERE category_id = ? AND approved = 1");
+                    $stmt_count->bind_param("i", $subcat['id']);
+                    $stmt_count->execute();
+                    $count = $stmt_count->get_result()->fetch_assoc()['cnt'];
+                    
+                    // Add subcategory with count in brackets
+                    $sub_link = '<a href="?page=category&id=' . $subcat['id'] . '">' . sanitizeOutput($subcat['name']) . ' (' . $count . ')</a>';
+                    $subs[] = $sub_link;
                 }
+                
+                // Display all subcategories separated by commas
                 echo implode(', ', $subs);
                 echo '</div>';
+            } else {
+                // Show message if no subcategories exist
+                echo '<div class="subcategories" style="color: #999; font-style: italic;">No subcategories yet</div>';
             }
+            
             echo '</div>';
         }
         echo '</div>';
@@ -1006,12 +1043,13 @@ function displayHomepage($conn) {
     
     echo '</div>';
     
-    // Statistics
+    // Statistics section
     $stmt = $conn->prepare("SELECT COUNT(*) as cnt FROM listings WHERE approved = 1");
     $stmt->execute();
     $total_listings = $stmt->get_result()->fetch_assoc()['cnt'];
     
-    $stmt = $conn->prepare("SELECT COUNT(*) as cnt FROM categories");
+    // Count only MAIN categories (parent_id IS NULL or 0)
+    $stmt = $conn->prepare("SELECT COUNT(*) as cnt FROM categories WHERE parent_id IS NULL OR parent_id = 0");
     $stmt->execute();
     $total_categories = $stmt->get_result()->fetch_assoc()['cnt'];
     
@@ -1020,20 +1058,8 @@ function displayHomepage($conn) {
     $total_reviews = $stmt->get_result()->fetch_assoc()['cnt'];
     
     echo '<div class="stats-box">';
-    echo '<p><strong>' . $total_listings . '</strong> websites | <strong>' . $total_categories . '</strong> categories | <strong>' . $total_reviews . '</strong> reviews</p>';
+    echo '<p><strong>' . $total_listings . '</strong> websites listed in <strong>' . $total_categories . '</strong> categories | <strong>' . $total_reviews . '</strong> reviews</p>';
     echo '</div>';
-    
-    // Featured listings
-    $stmt = $conn->prepare("SELECT * FROM listings WHERE approved = 1 AND featured = 1 ORDER BY RAND() LIMIT 3");
-    $stmt->execute();
-    $featured = $stmt->get_result();
-    
-    if ($featured->num_rows > 0) {
-        echo '<h2 class="section-title">Featured Listings</h2>';
-        while ($listing = $featured->fetch_assoc()) {
-            displayListingCard($listing);
-        }
-    }
 }
 
 function displayCategory($conn, $category_id, $page_num, $per_page, $offset) {
@@ -1257,8 +1283,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <header>
         <div class="container">
             <div class="logo">
-                <h1>FIJI!</h1>
-                <p>Web Directory - Browse, Review & Discover</p>
+                <h1>FIJI Web Directory</h1>
+                <p>Browse, Review & Discover</p>
             </div>
             
             <div class="search-bar">
