@@ -1,0 +1,450 @@
+[27-Oct-2025 22:54:37 Pacific/Fiji] === APPLICATION START ===
+[27-Oct-2025 22:54:37 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[27-Oct-2025 22:54:37 Pacific/Fiji] Checking model files:
+[27-Oct-2025 22:54:37 Pacific/Fiji] Listing.php exists: YES
+[27-Oct-2025 22:54:37 Pacific/Fiji] Category.php exists: YES
+[27-Oct-2025 22:54:37 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[27-Oct-2025 22:54:37 Pacific/Fiji] Database connected successfully!
+[27-Oct-2025 22:54:37 Pacific/Fiji] Database connected successfully!
+[27-Oct-2025 22:54:37 Pacific/Fiji] === DATABASE TEST ===
+[27-Oct-2025 22:54:37 Pacific/Fiji] Total categories in DB: 79
+[27-Oct-2025 22:54:37 Pacific/Fiji] Total approved listings in DB: 7
+[27-Oct-2025 22:54:37 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[27-Oct-2025 22:54:37 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[27-Oct-2025 22:54:37 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[27-Oct-2025 22:54:37 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[27-Oct-2025 22:54:37 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[27-Oct-2025 22:54:37 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[27-Oct-2025 22:54:37 Pacific/Fiji] === MODEL LOAD TEST ===
+[27-Oct-2025 22:54:37 Pacific/Fiji] Listing model loaded successfully
+[27-Oct-2025 22:54:37 Pacific/Fiji] Category model loaded successfully
+[27-Oct-2025 22:54:37 Pacific/Fiji] Listing model search test: 3 results
+[27-Oct-2025 22:54:37 Pacific/Fiji] Category model test: 10 main categories
+[27-Oct-2025 22:54:37 Pacific/Fiji] === ROUTER INIT ===
+[27-Oct-2025 22:54:37 Pacific/Fiji] Router created, handling request...
+[27-Oct-2025 22:54:37 Pacific/Fiji] PHP Fatal error:  Uncaught Error: Undefined constant "ENVIRONMENT" in C:\xampp\htdocs\web_directory\controllers\UserController.php:78
+Stack trace:
+#0 C:\xampp\htdocs\web_directory\includes\Router.php(65): UserController->staffLogin()
+#1 C:\xampp\htdocs\web_directory\index.php(108): Router->handleRequest()
+#2 {main}
+  thrown in C:\xampp\htdocs\web_directory\controllers\UserController.php on line 78
+[27-Oct-2025 22:54:53 Pacific/Fiji] === APPLICATION START ===
+[27-Oct-2025 22:54:53 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[27-Oct-2025 22:54:53 Pacific/Fiji] Checking model files:
+[27-Oct-2025 22:54:53 Pacific/Fiji] Listing.php exists: YES
+[27-Oct-2025 22:54:53 Pacific/Fiji] Category.php exists: YES
+[27-Oct-2025 22:54:53 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[27-Oct-2025 22:54:53 Pacific/Fiji] Database connected successfully!
+[27-Oct-2025 22:54:53 Pacific/Fiji] Database connected successfully!
+[27-Oct-2025 22:54:53 Pacific/Fiji] === DATABASE TEST ===
+[27-Oct-2025 22:54:53 Pacific/Fiji] Total categories in DB: 79
+[27-Oct-2025 22:54:53 Pacific/Fiji] Total approved listings in DB: 7
+[27-Oct-2025 22:54:53 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[27-Oct-2025 22:54:53 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[27-Oct-2025 22:54:53 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[27-Oct-2025 22:54:53 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[27-Oct-2025 22:54:53 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[27-Oct-2025 22:54:53 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[27-Oct-2025 22:54:53 Pacific/Fiji] === MODEL LOAD TEST ===
+[27-Oct-2025 22:54:53 Pacific/Fiji] Listing model loaded successfully
+[27-Oct-2025 22:54:53 Pacific/Fiji] Category model loaded successfully
+[27-Oct-2025 22:54:53 Pacific/Fiji] Listing model search test: 3 results
+[27-Oct-2025 22:54:53 Pacific/Fiji] Category model test: 10 main categories
+[27-Oct-2025 22:54:53 Pacific/Fiji] === ROUTER INIT ===
+[27-Oct-2025 22:54:53 Pacific/Fiji] Router created, handling request...
+[27-Oct-2025 22:54:53 Pacific/Fiji] Database connection closed
+[27-Oct-2025 22:54:53 Pacific/Fiji] === APPLICATION END ===
+[27-Oct-2025 22:55:12 Pacific/Fiji] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for wrong_host failed: No such host is known.  in C:\xampp\htdocs\web_directory\test_errors.php on line 7
+[27-Oct-2025 22:55:12 Pacific/Fiji] PHP Fatal error:  Uncaught Error: Call to undefined function undefined_function() in C:\xampp\htdocs\web_directory\test_errors.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\web_directory\test_errors.php on line 14
+[28-Oct-2025 00:23:49 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:23:49 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:25:23 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:25:23 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:25:24 Pacific/Fiji] Staff login successful: admin from IP: ::1
+[28-Oct-2025 00:25:24 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:25:24 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:28:21 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:28:21 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:28:21 Pacific/Fiji] Staff logout: 2 from IP: ::1
+[28-Oct-2025 00:28:21 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:28:21 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:28:39 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:28:39 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:28:39 Pacific/Fiji] Failed staff login attempt for: admin from IP: ::1 - Attempt: 1
+[28-Oct-2025 00:30:12 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 00:30:12 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 00:30:12 Pacific/Fiji] Checking model files:
+[28-Oct-2025 00:30:12 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 00:30:12 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 00:30:12 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:30:12 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:30:12 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:30:12 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 00:30:12 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 00:30:12 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 00:30:12 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 00:30:12 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 00:30:12 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 00:30:12 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 00:30:12 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 00:30:12 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 00:30:12 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 00:30:12 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 00:30:12 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 00:30:12 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 00:30:12 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 00:30:12 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 00:30:12 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 00:30:12 Pacific/Fiji] Database connection closed
+[28-Oct-2025 00:30:12 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 00:30:18 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:30:18 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:30:18 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:30:18 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:30:35 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:30:35 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:30:35 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:30:35 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:31:06 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:31:06 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:31:06 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:31:06 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:37:05 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:37:05 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:37:06 Pacific/Fiji] Staff login successful: admin from IP: ::1
+[28-Oct-2025 00:37:06 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:37:06 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:02 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:02 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:02 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:02 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:08 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:08 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:08 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:08 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:11 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:11 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:21 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:21 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:21 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:21 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:24 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:24 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:24 Pacific/Fiji] Staff logout: 2 from IP: ::1
+[28-Oct-2025 00:38:24 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:24 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:34 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 00:38:34 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 00:38:34 Pacific/Fiji] Checking model files:
+[28-Oct-2025 00:38:34 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 00:38:34 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 00:38:34 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:34 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:34 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:34 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 00:38:34 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 00:38:34 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 00:38:34 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 00:38:34 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 00:38:34 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 00:38:34 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 00:38:34 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 00:38:34 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 00:38:34 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 00:38:34 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 00:38:34 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 00:38:34 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 00:38:34 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 00:38:34 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 00:38:34 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 00:38:34 Pacific/Fiji] Database connection closed
+[28-Oct-2025 00:38:34 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 00:38:49 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 00:38:49 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 00:38:49 Pacific/Fiji] Checking model files:
+[28-Oct-2025 00:38:49 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 00:38:49 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 00:38:49 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:49 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:49 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:49 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 00:38:49 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 00:38:49 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 00:38:49 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 00:38:49 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 00:38:49 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 00:38:49 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 00:38:49 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 00:38:49 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 00:38:49 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 00:38:49 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 00:38:49 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 00:38:49 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 00:38:49 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 00:38:49 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 00:38:49 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 00:38:49 Pacific/Fiji] SearchController initialized
+[28-Oct-2025 00:38:49 Pacific/Fiji] === SEARCH CONTROLLER CALLED ===
+[28-Oct-2025 00:38:49 Pacific/Fiji] Search term: education
+[28-Oct-2025 00:38:49 Pacific/Fiji] Searching for: 'education'
+[28-Oct-2025 00:38:49 Pacific/Fiji] Search results count: 1
+[28-Oct-2025 00:38:49 Pacific/Fiji] Total results: 1
+[28-Oct-2025 00:38:49 Pacific/Fiji] Result 0: University of the South Pacific | Category: Higher Education
+[28-Oct-2025 00:38:49 Pacific/Fiji] Database connection closed
+[28-Oct-2025 00:38:49 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 00:38:57 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:57 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:38:57 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:38:57 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:39:02 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:39:02 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:39:02 Pacific/Fiji] Failed staff login attempt for: admin from IP: ::1 - Attempt: 1
+[28-Oct-2025 00:39:08 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:39:08 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:39:08 Pacific/Fiji] Failed staff login attempt for: admin from IP: ::1 - Attempt: 2
+[28-Oct-2025 00:39:13 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:39:13 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:39:13 Pacific/Fiji] Failed staff login attempt for: admin from IP: ::1 - Attempt: 3
+[28-Oct-2025 00:39:18 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:39:18 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:39:18 Pacific/Fiji] Failed staff login attempt for: admin from IP: ::1 - Attempt: 4
+[28-Oct-2025 00:39:23 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:39:23 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 00:39:23 Pacific/Fiji] Failed staff login attempt for: bb from IP: ::1 - Attempt: 5
+[28-Oct-2025 00:39:28 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 00:39:28 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:02:40 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:02:40 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:02:40 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:02:40 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:02:40 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:02:40 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:02:40 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:02:40 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:02:40 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:02:40 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:02:40 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:02:40 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:02:40 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:02:40 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:02:40 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:02:40 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:02:40 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:02:40 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:02:40 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:02:40 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:02:40 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:02:40 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:02:40 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:02:40 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:02:40 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:02:40 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:02:45 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:02:45 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:02:45 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:02:45 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:02:45 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:02:45 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:02:45 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:02:45 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:02:45 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:02:45 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:02:45 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:02:45 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:02:45 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:02:45 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:02:45 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:02:45 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:02:45 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:02:45 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:02:45 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:02:45 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:02:45 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:02:45 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:02:45 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:02:45 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:02:45 Pacific/Fiji] SearchController initialized
+[28-Oct-2025 01:02:45 Pacific/Fiji] === SEARCH CONTROLLER CALLED ===
+[28-Oct-2025 01:02:45 Pacific/Fiji] Search term: http://localhost/web_directory/?page=../../../etc/passwd
+[28-Oct-2025 01:02:45 Pacific/Fiji] Searching for: 'http://localhost/web_directory/?page=../../../etc/passwd'
+[28-Oct-2025 01:02:45 Pacific/Fiji] Search results count: 0
+[28-Oct-2025 01:02:45 Pacific/Fiji] Total results: 0
+[28-Oct-2025 01:02:45 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:02:45 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:03:03 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:03:03 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:03:03 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:03:03 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:03:03 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:03:03 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:03:03 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:03:03 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:03:03 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:03:03 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:03:03 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:03:03 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:03:03 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:03:03 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:03:03 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:03:03 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:03:03 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:03:03 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:03:03 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:03:03 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:03:03 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:03:03 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:03:03 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:03:03 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:03:03 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:03:03 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:03:23 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:03:23 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:03:23 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:03:23 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:03:23 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:03:23 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:03:23 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:03:23 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:03:23 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:03:23 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:03:23 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:03:23 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:03:23 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:03:23 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:03:23 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:03:23 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:03:23 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:03:23 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:03:23 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:03:23 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:03:23 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:03:24 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:03:24 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:03:24 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:03:24 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:03:24 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:05:03 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:05:03 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:05:03 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:05:03 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:05:03 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:05:03 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:05:03 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:05:03 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:05:03 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:05:03 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:05:03 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:05:03 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:05:03 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:05:03 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:05:03 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:05:03 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:05:03 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:05:03 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:05:03 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:05:03 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:05:03 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:05:03 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:05:03 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:05:03 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:05:03 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:05:03 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:05:24 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:05:24 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:05:24 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:05:24 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:05:24 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:05:24 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:05:24 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:05:24 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:05:24 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:05:24 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:05:24 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:05:24 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:05:24 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:05:24 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:05:24 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:05:24 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:05:24 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:05:24 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:05:24 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:05:24 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:05:24 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:05:24 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:05:24 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:05:24 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:05:24 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:05:24 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:05:46 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:05:46 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:05:46 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:05:46 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:05:46 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:05:46 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:05:46 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:05:46 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:05:46 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:05:46 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:05:46 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:05:46 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:05:46 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:05:46 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:05:46 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:05:46 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:05:46 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:05:46 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:05:46 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:05:46 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:05:46 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:05:47 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:05:47 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:05:47 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:05:47 Pacific/Fiji] Database connection closed
+[28-Oct-2025 01:05:47 Pacific/Fiji] === APPLICATION END ===
+[28-Oct-2025 01:11:11 Pacific/Fiji] === APPLICATION START ===
+[28-Oct-2025 01:11:11 Pacific/Fiji] Config loaded: localhost, root, web_directory
+[28-Oct-2025 01:11:11 Pacific/Fiji] Checking model files:
+[28-Oct-2025 01:11:11 Pacific/Fiji] Listing.php exists: YES
+[28-Oct-2025 01:11:11 Pacific/Fiji] Category.php exists: YES
+[28-Oct-2025 01:11:11 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:11:11 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:11:11 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:11:11 Pacific/Fiji] === DATABASE TEST ===
+[28-Oct-2025 01:11:11 Pacific/Fiji] Total categories in DB: 79
+[28-Oct-2025 01:11:11 Pacific/Fiji] Total approved listings in DB: 7
+[28-Oct-2025 01:11:11 Pacific/Fiji] Direct search test for 'fiji': 5 results
+[28-Oct-2025 01:11:11 Pacific/Fiji]   Result 0: Fiji Government Portal | Category: Ministries
+[28-Oct-2025 01:11:11 Pacific/Fiji]   Result 1: Fiji Times | Category: Newspapers
+[28-Oct-2025 01:11:11 Pacific/Fiji]   Result 2: Tourism Fiji | Category: Hotels & Resorts
+[28-Oct-2025 01:11:11 Pacific/Fiji]   Result 3: Fiji Airways | Category: Tour Operators
+[28-Oct-2025 01:11:11 Pacific/Fiji]   Result 4: Fiji Water | Category: Manufacturing
+[28-Oct-2025 01:11:11 Pacific/Fiji] === MODEL LOAD TEST ===
+[28-Oct-2025 01:11:11 Pacific/Fiji] Listing model loaded successfully
+[28-Oct-2025 01:11:11 Pacific/Fiji] Category model loaded successfully
+[28-Oct-2025 01:11:11 Pacific/Fiji] Listing model search test: 3 results
+[28-Oct-2025 01:11:11 Pacific/Fiji] Category model test: 10 main categories
+[28-Oct-2025 01:11:11 Pacific/Fiji] === ROUTER INIT ===
+[28-Oct-2025 01:11:11 Pacific/Fiji] Router created, handling request...
+[28-Oct-2025 01:12:33 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:12:33 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:12:33 Pacific/Fiji] Failed staff login attempt for: ghjk from IP: ::1 - Attempt: 1
+[28-Oct-2025 01:12:40 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:12:40 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:12:40 Pacific/Fiji] Staff login successful: admin from IP: ::1
+[28-Oct-2025 01:12:40 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:12:40 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:12:42 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:12:42 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:13:36 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:13:36 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:13:54 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:13:54 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:33:00 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:33:00 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:33:00 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:33:00 Pacific/Fiji] Database connected successfully!
+[28-Oct-2025 01:33:05 Pacific/Fiji] Attempting DB connection: root@localhost to web_directory
+[28-Oct-2025 01:33:05 Pacific/Fiji] Database connected successfully!

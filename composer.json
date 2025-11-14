@@ -1,0 +1,13 @@
+{ 
+    "name": "fijiwebdirectory/app", 
+    "description": "Fiji Web Directory", 
+    "type": "project", 
+    "require": { 
+        "phpmailer/phpmailer": "^6.8" 
+    }, 
+    "autoload": { 
+        "psr-4": { 
+            "PHPMailer\\\\PHPMailer\\\\": "vendor/phpmailer/phpmailer/src/" 
+        } 
+    } 
+} 
