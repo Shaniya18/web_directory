@@ -129,64 +129,48 @@ web_directory/
 ├── index.php               # Main entry point
 ├── staff.php               # Staff/admin entry point
 └── .htaccess               # Apache configuration
+ ```
 
-
-## 🔐 Security Implementation
+**🔐 Security Implementation**
 Authentication & Session Security
 Separate Authentication Systems – User and staff areas completely isolated
-
 Strong Password Policies – 12+ characters with complexity requirements
-
 Account Lockout – 5 failed attempts trigger 15-minute lockout
-
 Password History – Prevents reuse of last 5 passwords
-
 Secure Sessions – HttpOnly cookies, SameSite policies, timeout management
 
-Input Validation & Data Protection
+**Input Validation & Data Protection**
 Comprehensive Input Sanitization – Across all forms and user inputs
-
 SQL Injection Prevention – Prepared statements and parameterized queries
-
 XSS Protection – Output encoding for all user-generated content
-
 CSRF Protection – Token validation on all state-changing forms
-
 File Upload Security – Type verification, size limits, random filenames
 
-Application Architecture
+**Application Architecture**
 Physical Separation – Complete isolation between user and staff areas
-
 No Privilege Escalation – Independent authentication systems
-
 Secure Error Handling – No sensitive information leakage
-
 Security Headers – X-Frame-Options, X-XSS-Protection, etc.
 
-📊 Core Components
-Key Controllers
-AuthController – Handles user login, registration, password reset
+## 📊 Core Components
+**Key Controllers**
 
-UserController – Manages user profiles and account settings
+-**AuthController** – Handles user login, registration, password reset
+-**UserController** – Manages user profiles and account settings
+-**StaffAuthController** – Secure staff authentication with enhanced protections
+-**ListingController** – Business listing creation, editing, and display
+-**SearchController**– Advanced search functionality with security filters
 
-StaffAuthController – Secure staff authentication with enhanced protections
+## Data Models
+-**User** – User accounts with secure password hashing
+-**Listing** – Business listings with approval workflow
+-**Category** – Business categorization system
+-**Review** – User reviews and ratings with moderation
 
-ListingController – Business listing creation, editing, and display
+## 📧 Email System
+**PHPMailer Integration**
 
-SearchController – Advanced search functionality with security filters
-
-Data Models
-User – User accounts with secure password hashing
-
-Listing – Business listings with approval workflow
-
-Category – Business categorization system
-
-Review – User reviews and ratings with moderation
-
-📧 Email System
-PHPMailer Integration
-Password Reset Functionality – Secure tokens with expiration
+-**Password Reset Functionality** – Secure tokens with expiration
 
 HTML & Plain-Text Templates – Professional email formatting
 
