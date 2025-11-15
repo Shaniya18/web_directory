@@ -220,6 +220,7 @@ Enable debug mode in `config.php` for troubleshooting:
 ```php
 define('SMTP_DEBUG', 2);
 ini_set('display_errors', 1);
+``` 
 👩‍💻 Author
 Shaniya Saloni Sen
 Software Developer | Security-Focused Web Applications
