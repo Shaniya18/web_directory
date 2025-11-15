@@ -72,15 +72,14 @@ A secure, feature-rich web directory application built with PHP, featuring busin
 ## 🛡️ Security Hardening
 📋 View Full Security Hardening Report
 
-###  Security Features Implemented
-
--**Authentication Security** – Strong password policies, account lockout, password history tracking
--**SQL Injection Prevention** – Parameterized queries and input validation
--**XSS Protection** – Output encoding across all user outputs
--**CSRF Protection** – Token validation on all state-changing forms
--**Session Security** – Enhanced cookie settings with HttpOnly and SameSite
--**File Upload Security** – Type verification, size limits, random filenames
--**Error Handling** – Secure error disclosure without information leakage
+### Security Features Implemented
+- **Authentication Security** – Strong password policies, account lockout, password history tracking
+- **SQL Injection Prevention** – Parameterized queries and input validation
+- **XSS Protection** – Output encoding across all user outputs
+- **CSRF Protection** – Token validation on all state-changing forms
+- **Session Security** – Enhanced cookie settings with HttpOnly and SameSite
+- **File Upload Security** – Type verification, size limits, random filenames
+- **Error Handling** – Secure error disclosure without information leakage
 
 ## 📁 Project Structure
  ```bash
