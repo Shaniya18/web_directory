@@ -72,7 +72,7 @@ A secure, feature-rich web directory application built with PHP, featuring busin
 ## 🛡️ Security Hardening
 📋 View Full Security Hardening Report
 
-## Security Features Implemented
+###  Security Features Implemented
 
 -**Authentication Security** – Strong password policies, account lockout, password history tracking
 -**SQL Injection Prevention** – Parameterized queries and input validation
