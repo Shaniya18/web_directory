@@ -54,45 +54,41 @@ A secure, feature-rich web directory application built with PHP, featuring busin
    composer install
 
 3. **Set up the database**
+   
+   Create a MySQL database named web_directory
+   Update database credentials in config.php
 
-Create a MySQL database named web_directory
+4. **Configure environment**
 
-Update database credentials in config.php
+   For email (password resets), add your Gmail and App Password in config.php
+   Ensure proper file permissions for logs/ directory
 
-Configure environment
+5. **Run locally**
 
-For email (password resets), add your Gmail and App Password in config.php
+   Start Apache & MySQL via XAMPP
+   Visit: http://localhost/web_directory
+   Staff panel: http://localhost/web_directory/staff.php
 
-Ensure proper file permissions for logs/ directory
-
-Run locally
-
-Start Apache & MySQL via XAMPP
-
-Visit: http://localhost/web_directory
-
-Staff panel: http://localhost/web_directory/staff.php
-
-🛡️ Security Hardening
+## 🛡️ Security Hardening
 📋 View Full Security Hardening Report
 
-Security Features Implemented
-Authentication Security – Strong password policies, account lockout, password history tracking
+## Security Features Implemented
+-**Authentication Security** – Strong password policies, account lockout, password history tracking
 
-SQL Injection Prevention – Parameterized queries and input validation
+-**SQL Injection Prevention** – Parameterized queries and input validation
 
-XSS Protection – Output encoding across all user outputs
+-**XSS Protection** – Output encoding across all user outputs
 
-CSRF Protection – Token validation on all state-changing forms
+-**CSRF Protection** – Token validation on all state-changing forms
 
-Session Security – Enhanced cookie settings with HttpOnly and SameSite
+-**Session Security** – Enhanced cookie settings with HttpOnly and SameSite
 
-File Upload Security – Type verification, size limits, random filenames
+-**File Upload Security** – Type verification, size limits, random filenames
 
-Error Handling – Secure error disclosure without information leakage
+-**Error Handling** – Secure error disclosure without information leakage
 
-📁 Project Structure
-text
+## 📁 Project Structure
+
 web_directory/
 ├── controllers/              # Request handlers
 │   ├── AuthController.php           # User authentication
