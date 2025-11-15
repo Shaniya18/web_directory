@@ -168,71 +168,56 @@ web_directory/
 - **Listing** – Business listings with approval workflow
 - **Category** – Business categorization system
 - **Review** – User reviews and ratings with moderation
-
 ## 📧 Email System
-**PHPMailer Integration**
 
--**Password Reset Functionality** – Secure tokens with expiration
+### PHPMailer Integration
+- **Password Reset Functionality** – Secure tokens with expiration
+- **HTML & Plain-Text Templates** – Professional email formatting
+- **Gmail SMTP Integration** – Secure email delivery with App Passwords
+- **Error Logging** – Comprehensive tracking for email delivery issues
 
-HTML & Plain-Text Templates – Professional email formatting
+---
 
-Gmail SMTP Integration – Secure email delivery with App Passwords
+## 🎯 Usage Guide
 
-Error Logging – Comprehensive tracking for email delivery issues
+### For Regular Users
+1. **Register Account** – Create secure credentials with strong password
+2. **Browse Listings** – Search and filter business listings by category
+3. **Submit Listings** – Add new businesses for admin review
+4. **Write Reviews** – Share feedback and ratings
+5. **Password Reset** – Use email-based recovery if needed
 
-🎯 Usage Guide
-For Regular Users
-Register Account – Create secure credentials with strong password
+### For Staff/Administrators
+1. **Access Staff Panel** – Login via `staff.php`
+2. **Manage Content** – Approve, edit, or remove business listings
+3. **User Management** – Monitor and manage user accounts
+4. **Review System** – Moderate user reviews and ratings
+5. **Message Center** – Handle user inquiries and contact forms
 
-Browse Listings – Search and filter business listings by category
+---
 
-Submit Listings – Add new businesses for admin review
+## 🐛 Troubleshooting
 
-Write Reviews – Share feedback and ratings
+### Common Issues & Solutions
 
-Password Reset – Use email-based recovery if needed
+**Database Connection Issues**
+- Verify MySQL service is running in XAMPP
+- Check database credentials in `config.php`
+- Ensure `web_directory` database exists
 
-For Staff/Administrators
-Access Staff Panel – Login via staff.php
+**Email Delivery Problems**
+- Confirm Gmail App Password is correct
+- Verify SMTP settings in `config.php`
+- Check internet connection for SMTP access
 
-Manage Content – Approve, edit, or remove business listings
+**Session & Login Issues**
+- Clear browser cookies and cache
+- Check `logs/php_errors.log` for specific errors
+- Verify session directory permissions
 
-User Management – Monitor and manage user accounts
-
-Review System – Moderate user reviews and ratings
-
-Message Center – Handle user inquiries and contact forms
-
-🐛 Troubleshooting
-Common Issues & Solutions
-Database Connection Issues
-
-Verify MySQL service is running in XAMPP
-
-Check database credentials in config.php
-
-Ensure web_directory database exists
-
-Email Delivery Problems
-
-Confirm Gmail App Password is correct
-
-Verify SMTP settings in config.php
-
-Check internet connection for SMTP access
-
-Session & Login Issues
-
-Clear browser cookies and cache
-
-Check logs/php_errors.log for specific errors
-
-Verify session directory permissions
-
-Development Debugging
-Enable debug mode in config.php for troubleshooting:
-
-php
+### Development Debugging
+Enable debug mode in `config.php` for troubleshooting:
+```php
 define('SMTP_DEBUG', 2);
 ini_set('display_errors', 1);
 👩‍💻 Author
