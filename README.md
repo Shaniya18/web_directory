@@ -48,9 +48,9 @@ A secure, feature-rich web directory application built with PHP, featuring busin
    ```bash
    git clone https://github.com/Shaniya18/web_directory.git
    cd web_directory
-   Install dependencies
 
-bash
+2.**Install dependencies**
+
 composer install
 Set up the database
 
