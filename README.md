@@ -60,8 +60,8 @@ A secure, feature-rich web directory application built with PHP, featuring busin
 
 4. **Configure environment**
 
-   For email (password resets), add your Gmail and App Password in config.php
-   Ensure proper file permissions for logs/ directory
+  For email (password resets), add your Gmail and App Password in config.php 
+  Ensure proper file permissions for logs/ directory
 
 5. **Run locally**
 
@@ -129,7 +129,9 @@ web_directory/
 ├── index.php               # Main entry point
 ├── staff.php               # Staff/admin entry point
 └── .htaccess               # Apache configuration
-🔐 Security Implementation
+
+
+## 🔐 Security Implementation
 Authentication & Session Security
 Separate Authentication Systems – User and staff areas completely isolated
 
