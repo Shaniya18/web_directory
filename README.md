@@ -51,7 +51,7 @@ Visit: http://localhost/web_directory
 Staff panel: http://localhost/web_directory/staff.php
 
 📁 Project Structure
-text
+
 web_directory/
 ├── controllers/              # Request handlers
 │   ├── AuthController.php           # User authentication
