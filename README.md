@@ -221,8 +221,8 @@ Enable debug mode in `config.php` for troubleshooting:
 define('SMTP_DEBUG', 2);
 ini_set('display_errors', 1);
 ``` 
-👩‍💻 Author
-Shaniya Saloni Sen
-Software Developer | Security-Focused Web Applications
 
-Built with comprehensive security practices and real-world application development following OWASP guidelines.
+**👩‍💻 Author**
+**Shaniya Saloni Sen**
+**Bachelor of Information Technology - Software Engineering| Security-Focused Web Applications**
+-Built with comprehensive security practices and real-world application development following OWASP guidelines.
