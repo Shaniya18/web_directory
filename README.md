@@ -71,6 +71,7 @@ A secure, feature-rich web directory application built with PHP, featuring busin
 
 ## 🛡️ Security Hardening
 📋 View Full Security Hardening Report
+(cybersecurity-assessments/Security%20Hardening%20Report%20-%20Fiji%20Web%20Directory%20(2).pdf)
 
 ### Security Features Implemented
 - **Authentication Security** – Strong password policies, account lockout, password history tracking
