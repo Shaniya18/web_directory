@@ -72,7 +72,7 @@ A secure, feature-rich web directory application built with PHP, featuring busin
 ## 🛡️ Security Hardening
 📋 View Full Security Hardening Report
 
-# (https://github.com/Shaniya18/cybersecurity-assessments/blob/main/Security%20Hardening%20Report%20-%20Fiji%20Web%20Directory%20(2).pdf)
+**(https://github.com/Shaniya18/cybersecurity-assessments/blob/main/Security%20Hardening%20Report%20-%20Fiji%20Web%20Directory%20(2).pdf)**
 
 *Detailed documentation of all security measures, vulnerability assessments, and hardening implementations applied to this web directory application.*
 
