@@ -13,7 +13,7 @@ define('SITE_URL', 'http://localhost/web_directory');
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_PORT', 587);
 define('SMTP_USERNAME', 'fijiwebdirectory@gmail.com');
-define('SMTP_PASSWORD', 'lkvhhxryarddogeq');
+define('SMTP_PASSWORD', 'Your_Password');
 define('SMTP_FROM_EMAIL', 'noreply@yourdomain.com');
 define('SMTP_FROM_NAME', 'Fiji Web Directory');
 define('SMTP_DEBUG', 0); //  CHANGED: 0 for production (was 2 for debugging)
